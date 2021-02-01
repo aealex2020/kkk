@@ -19,7 +19,7 @@ def home():
     return render_template('home.html', title="Home")
 
 
-@app.route("/products-and-services/")
+@app.route("/RegisterSim/")
 def products_and_services():
     return render_template('products-and-services.html', title="Products and Services")
 
